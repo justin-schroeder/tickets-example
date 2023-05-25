@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: var(--vue-color);
+  background-image:  url(assets/img/vue-bg.png), linear-gradient(to bottom, var(--vue-color), var(--vue-blue));
   margin: 0;
   padding: 0;
 }
