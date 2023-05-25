@@ -1,0 +1,45 @@
+:root {
+  --vue-color: #42b883;
+  --vue-blue: #213547;
+  --fk-color-primary: var(--vue-color) !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--vue-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3em;
+  color: var(--vue-blue);
+  max-width: 10em;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.container {
+  width: calc(100% - 8em);
+  margin: 2em auto;
+  background-color: white;
+  padding: 2em;
+  border-radius: .5em;
+  box-shadow: 0 0 .5em rgba(0, 0, 0, .1);
+}
+
+[data-type="checkbox"]:not([data-multiple]) {
+  margin-top: 2em;
+}
+
+.price {
+  margin-bottom: 2em;
+}
+
+[data-type="repeater"] {
+  .price {
+    text-align: right;
+    margin-bottom: 0;
+  }
+}
