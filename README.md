@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# FormKit Ticket Example
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple example of using FormKit on a moderately medium complexity form.
 
 ## Setup
 
